@@ -6,9 +6,9 @@ namespace terpz710\pocketformstest;
 
 use pocketmine\plugin\PluginBase;
 
-use terpz710\simpleforms\SimpleForm;
-use terpz710\simpleforms\ModalForm;
-use terpz710\simpleforms\CustomForm;
+use terpz710\pocketforms\SimpleForm;
+use terpz710\pocketforms\ModalForm;
+use terpz710\pocketforms\CustomForm;
 
 use CortexPE\Commando\PacketHooker;
 
