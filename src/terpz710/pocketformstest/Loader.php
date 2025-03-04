@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace terpz710\simpleformstest;
+namespace terpz710\pocketformstest;
 
 use pocketmine\plugin\PluginBase;
 
