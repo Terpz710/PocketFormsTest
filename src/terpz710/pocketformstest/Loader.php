@@ -6,6 +6,8 @@ namespace terpz710\pocketformstest;
 
 use pocketmine\plugin\PluginBase;
 
+use pocketmine\player\Player;
+
 use terpz710\pocketformstest\commands\SimpleCommand;
 use terpz710\pocketformstest\commands\ModalCommand;
 use terpz710\pocketformstest\commands\CustomCommand;
