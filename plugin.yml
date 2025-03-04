@@ -1,9 +1,9 @@
 name: PocketFormsTest
 version: 1.0.0
 author: Terpz710
-api: 5.0.0
+api: 5.3.0
 main: terpz710\pocketformstest\Loader
 
 permissions:
-  pocketforms.cmd:
+  pocketformstest.cmd:
     default: true
