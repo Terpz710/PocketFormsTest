@@ -6,6 +6,10 @@ namespace terpz710\pocketformstest;
 
 use pocketmine\plugin\PluginBase;
 
+use terpz710\pocketformstest\commands\SimpleCommand;
+use terpz710\pocketformstest\commands\ModalCommand;
+use terpz710\pocketformstest\commands\CustomCommand;
+
 use terpz710\pocketforms\SimpleForm;
 use terpz710\pocketforms\ModalForm;
 use terpz710\pocketforms\CustomForm;
@@ -22,7 +26,7 @@ final class Loader extends PluginBase {
         $this->getServer()->getCommandMap()->registerAll("PocketFormsTest", [
             new SimpleCommand($this, "simpleform", "Simple form command"),
             new ModalCommand($this, "modalform", "Modal form command"),
-            new SimpleCommand($this, "customform", "Custom form command")
+            new CustomCommand($this, "customform", "Custom form command")
         ]);
     }
 
